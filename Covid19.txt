@@ -29,4 +29,9 @@ public class Covid19 {
     public static void printTreated(){
         System.debug('Recovered in country : '+recoveredInCountry);
     }
+
+     public void treatPatient(){
+        recoveredInArea++;
+        recoveredInCountry++;
+    }
 }
